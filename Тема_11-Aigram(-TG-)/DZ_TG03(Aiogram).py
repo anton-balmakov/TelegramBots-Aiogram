@@ -1,3 +1,4 @@
+#Запускает Телеграм бот и на оснвоании отввето создает список учеников в БД sqlite3
 import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.filters import CommandStart
@@ -6,7 +7,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 import config
 import sqlite3
-import aiohttp
+
 
 bot = Bot(token=config.tltok)
 dp = Dispatcher()

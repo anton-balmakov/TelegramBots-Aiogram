@@ -1,3 +1,4 @@
+# ТелеграмБот демонстрирует менюшки по командам и привязанные к ним ссылки, а также работу с описанными кнопками
 import asyncio
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart, Command

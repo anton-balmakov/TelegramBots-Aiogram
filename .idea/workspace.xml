@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fa044b3-58a7-44e5-8673-e9f625eaa53c" name="Changes" comment="DZ_TG05+">
+    <list default="true" id="9fa044b3-58a7-44e5-8673-e9f625eaa53c" name="Changes" comment="TG06">
+      <change afterPath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/DZ_TG03(Aiogram).py" beforeDir="false" afterPath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/DZ_TG03(Aiogram).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/DZ_TG04(Aiogram).py" beforeDir="false" afterPath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/DZ_TG04(Aiogram).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/DZ_TG05(Aiogram)_API(dogs).py" beforeDir="false" afterPath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/DZ_TG05(Aiogram)_API(dogs).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/TG03_Aiogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/TG03_Aiogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/TG05_Aiogram(API)/cats.py" beforeDir="false" afterPath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/TG05_Aiogram(API)/cats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/TG05_Aiogram(API)/nasa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/TG05_Aiogram(API)/nasa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/school_date.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/user_date.db" beforeDir="false" afterPath="$PROJECT_DIR$/Тема_11-Aigram(-TG-)/user_date.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,33 +73,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.DZ_TG01(Aiogram).executor": "Run",
-    "Python.DZ_TG02(Aiogram).executor": "Run",
-    "Python.DZ_TG03_Aiogram.executor": "Run",
-    "Python.DZ_TG04(Aiogram).executor": "Run",
-    "Python.DZ_TG04_keyboards.executor": "Run",
-    "Python.DZ_TG05(Aiogram)_API(dogs).executor": "Run",
-    "Python.TG01-02_Aiogram.executor": "Run",
-    "Python.TG03_Aiogram.executor": "Run",
-    "Python.TG04_keyboards.executor": "Run",
-    "Python.TG06_Aiogram.executor": "Run",
-    "Python.cats.executor": "Run",
-    "Python.config.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.nasa.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Anton_B/PycharmProjects/AiogramTeleBot/Тема_11-Aigram(-TG-)",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.DZ_TG01(Aiogram).executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_TG02(Aiogram).executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_TG03(Aiogram).executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_TG03_Aiogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_TG04(Aiogram).executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_TG04_keyboards.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_TG05(Aiogram)_API(dogs).executor&quot;: &quot;Run&quot;,
+    &quot;Python.TG01-02_Aiogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TG03_Aiogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TG04_keyboards.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TG06_Aiogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cats.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nasa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anton_B/PycharmProjects/AiogramTeleBot/Тема_11-Aigram(-TG-)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Anton_B\PycharmProjects\AiogramTeleBot\Тема_11-Aigram(-TG-)" />
@@ -203,8 +213,27 @@
       <option name="project" value="LOCAL" />
       <updated>1766069119763</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="TG06">
+      <option name="closed" value="true" />
+      <created>1766562018139</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1766562018139</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="work1" />
@@ -218,6 +247,7 @@
     <MESSAGE value="DZ_TG04" />
     <MESSAGE value="DZ_TG05" />
     <MESSAGE value="DZ_TG05+" />
-    <option name="LAST_COMMIT_MESSAGE" value="DZ_TG05+" />
+    <MESSAGE value="TG06" />
+    <option name="LAST_COMMIT_MESSAGE" value="TG06" />
   </component>
 </project>

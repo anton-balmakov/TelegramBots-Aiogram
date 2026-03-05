@@ -1,3 +1,4 @@
+#Запускает Телеграмбот и по команде парсит сайт nasa раздел ежедневные фото и получает фото дня
 import asyncio
 import requests
 from aiogram import Bot, Dispatcher, F

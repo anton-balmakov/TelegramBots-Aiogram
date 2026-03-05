@@ -1,10 +1,11 @@
+# Запускает ТелеграмБот который спрашивает породу собаки потом парсит сайт dog и выдает инфу по собаке, одновременно выводя в терминал весь перечень пород
 import asyncio
 import requests
-from aiogram import Bot, Dispatcher, F
-from aiogram.filters import CommandStart, Command
+from aiogram import Bot, Dispatcher
+from aiogram.filters import CommandStart
 from aiogram.types import Message
 from googletrans import Translator
-#ссылка на конфиг, т.к. он лежит не в текущем каталоге
+
 import config
 
 bot = Bot(token=config.tltok)

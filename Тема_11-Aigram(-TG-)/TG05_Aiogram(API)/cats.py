@@ -1,9 +1,8 @@
+#Запускает Телеграмбот и при указании породы кошки на английском, парсит сайт cat и получает инфу о коте с фоткой
 import asyncio
 import requests
-from aiogram import Bot, Dispatcher, F
-from aiogram.filters import CommandStart, Command
-from aiogram.types import Message
-#ссылка на конфиг, т.к. он лежит не в текущем каталоге
+from aiogram import Bot, Dispatcher
+from aiogram.filters import CommandStart
 import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

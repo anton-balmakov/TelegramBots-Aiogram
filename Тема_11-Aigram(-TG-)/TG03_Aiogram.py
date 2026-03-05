@@ -1,11 +1,11 @@
+#Телебот Спрашивает Имя, возраст и город, потом предоставляет погоду по данному городу и записывает все в БД
+
 import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.filters import CommandStart
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
-from aiogram.fsm.storage.memory import MemoryStorage
-
 import config
 import sqlite3
 import aiohttp
